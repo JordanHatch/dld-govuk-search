@@ -1,0 +1,105 @@
+@import url('reset.css');
+
+body {
+  background: #F8F8F8;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
+  border-bottom: 0.5rem solid #f47738;
+}
+h1 em {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0.5em 0;
+}
+
+a, a:visited { color: #2E3191; }
+a:hover, a:active { color: #2E8ACA; }
+
+main {
+  width: 800px;
+  padding: 1em;
+  margin: 2em auto 2em;
+}
+
+#search {
+  margin: 1em 0;
+}
+#search form {
+  padding: 0.5em 0;
+}
+#search input[type='text'] {
+  width: 100%;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+#search button {
+  margin: 1em 0;
+  background: #28a197;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+
+  border: none;
+}
+#search button:hover {
+  background: #1d7b74;
+  cursor: pointer;
+}
+
+#search input[type='text'], #search button {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#results ul.results > li {
+  font-size: 1rem;
+  padding: 1em 0;
+  border-bottom: 1px solid #BFC1C3;
+}
+#results ul.results > li:last-child {
+  border-bottom: none;
+}
+#results ul.results > li > a {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#results ul.related {
+  padding-top: 0.5em;
+  font-size: 0.9rem;
+}
+#results ul.related li {
+  display: inline-block;
+  padding: 0 0.5em 0 0;
+  line-height: 1.3em;
+}
+#results ul.related li a {
+  font-weight: normal;
+  color: #666;
+}
+
+#results .error {
+  background: #b10e1e;
+  color: #fff;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#results .error em {
+  background: #fff;
+  color: #000;
+  padding: 0.25em;
+}

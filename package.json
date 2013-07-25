@@ -1,0 +1,16 @@
+{
+  "name": "dld-govuk-search",
+  "description": "An app to consume and filter the GOV.UK Search API",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "ejs": "0.8.x",
+    "ejs-locals": "~1.0.2",
+    "restler": "git://github.com/raymondfeng/restler"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  }
+}
